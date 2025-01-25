@@ -1,0 +1,26 @@
+# keymap.toml
+[manager]
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin max-preview"
+desc = "Maximize or restore preview"
+
+[[manager.prepend_keymap]]
+on   = "l"
+run  = "plugin smart-enter"
+desc = "Enter the child directory, or open the file"
+
+[[manager.prepend_keymap]]
+on = "<C-1>"
+run = "plugin toggle-view --args=parent"
+desc = "Toggle parent" 
+
+[[manager.prepend_keymap]]
+on = "<C-2>"
+run = "plugin toggle-view --args=current"
+desc = "Toggle current" 
+
+[[manager.prepend_keymap]]
+on = "<C-3>"
+run = "plugin toggle-view --args=preview"
+desc = "Toggle preview" 

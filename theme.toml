@@ -1,0 +1,7 @@
+# theme.toml
+[flavor]
+dark = "catppuccin-mocha"
+
+[status]
+separator_open = ""
+separator_close = ""

@@ -1,0 +1,22 @@
+# yazi.toml
+[manager]
+show_hidden = true
+ratio = [1, 3, 3]
+sort_by = "natural"
+sort_sensitive = true
+sort_dir_first = true
+sort_translit = true
+scrolloff = 200
+
+[preview]
+wrap = "yes"
+max_width  = 10000
+max_height = 10000
+
+[plugin]
+prepend_previewers = [
+  { name = "*.md", run = "glow" },
+##  { name = "*", run = "hexyl" },
+]
+
+
